@@ -1,4 +1,5 @@
 .container {
+    padding:15px;
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
@@ -6,8 +7,15 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+.App{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .display {
     margin-top: 25px;
+    margin-bottom: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +28,37 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .operators{
+      display: flex;
+      flex-direction: column;
+  }
+  .operators button{
+      background-color: #3CB5E5;
+  }
+  .special button{
+      background-color:#2061B0;
+  }
+  button{
+      font-size:30px;
+      width:100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 5px;
+      box-shadow: 3px 3px #888888;
+  }
+  .numbers{
+      width:330px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .numbers button{
+      background-color: #103C78;
+  }
+
+
